@@ -1,0 +1,20 @@
+h1 {
+  text-align: center;
+  color: purple;
+  padding-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  color: purple;
+}
+
+section {
+  text-align: center;
+}
+
+p {
+text-align: center;
+background-color: black;
+color: yellow;
+}
