@@ -56,7 +56,7 @@
 // }
 
 var favNum = 9;
-var responseArr = ['you guessed too high!' , 'you guessed too low!' , 'you got it right!'];
+var responseArr = ['you guessed too high!' , 'you guessed too low!' , 'you got it right!' , 'you took too many try\'s'];
 
 for (var i = 0; i < 4; i++) {
   var userAnswer6 = prompt('what is my favorite number?');
@@ -72,6 +72,10 @@ for (var i = 0; i < 4; i++) {
     console.log(userAnswer6);
     break;
   }
+  if (i === 3) {
+    alert(responseArr[3]);
+  }
+
 }
 
 for (var i = 0; i < 6; i++) {
@@ -83,5 +87,6 @@ for (var i = 0; i < 6; i++) {
     break;
   } else {
     alert('guess again!');
+    console.log('wrong answer');
   }
 }
