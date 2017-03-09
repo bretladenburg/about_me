@@ -100,4 +100,4 @@ for (var i = 0; i < 6; i++) {
   }
 }
 
-alert('you got ' + counter + ' correct');
+alert('congrats ' + userName + ' you got ' + counter + ' correct');
