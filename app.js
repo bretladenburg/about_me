@@ -43,10 +43,10 @@ if (userAnswer3.toLowerCase() === 'yes' || userAnswer3.toLowerCase() === 'y') {
 var userAnswer4 = prompt('do you think i\'ve ever lived outside washington state?');
 console.log('state?:' + userAnswer4);
 if (userAnswer4.toLowerCase() === 'yes' || userAnswer4.toLowerCase() === 'y') {
+  alert('c\'mon man I totally look pacific northwest');
+} else if (userAnswer4.toLowerCase() === 'no' || userAnswer4.toLowerCase() === 'n') {
   alert('correct! washington state is definitely the state for me');
   counter++;
-} else if (userAnswer4.toLowerCase() === 'no' || userAnswer4.toLowerCase() === 'n') {
-  alert('c\'mon man I totally look pacific northwest');
 } else {
   alert(message1);
 }
@@ -99,3 +99,5 @@ for (var i = 0; i < 6; i++) {
     console.log('wrong answer');
   }
 }
+
+alert('you got ' + counter + ' correct');

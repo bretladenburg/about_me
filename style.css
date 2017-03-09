@@ -6,7 +6,7 @@ h1 {
 
 h2 {
   text-align: center;
-  color: purple;
+  color: grey;
 }
 
 section {
@@ -17,6 +17,7 @@ p {
 text-align: center;
 background-color: black;
 color: yellow;
+border-radius: 250px;
 }
 
 ul {
@@ -25,4 +26,9 @@ ul {
 
 ol {
   text-align: center;
+}
+
+#movie {
+  color: Red;
+  font-style:italic;
 }
