@@ -77,11 +77,11 @@ for (var i = 0; i < 4; i++) {
 for (var i = 0; i < 6; i++) {
   var userAnswer7 = prompt('what is my favorite food?');
   var foodsArr = ['teriyaki' , 'pizza' , 'mac and cheese'];
-  if (userAnswer7 === foodsArr[0] || foodsArr[1] || foodsArr[2] ) {
+  if (foodsArr.includes(userAnswer7)) {
     alert('congrats you got it right! The answers were: ' + foodsArr);
     console.log(typeof userAnswer7);
+    break;
   } else {
     alert('guess again!');
   }
-  break;
 }
