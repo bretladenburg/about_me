@@ -96,8 +96,8 @@ for (var i = 0; i < 6; i++) {
     break;
   } else {
     alert('guess again!');
-    console.log('wrong answer');
+    console.log(userAnswer7);
   }
 }
 
-alert('you got ' + counter + ' correct');
+alert('congrats ' + userName + ' you got ' + counter + ' correct');
