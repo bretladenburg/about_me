@@ -96,7 +96,7 @@ for (var i = 0; i < 6; i++) {
     break;
   } else {
     alert('guess again!');
-    console.log('wrong answer');
+    console.log(userAnswer7);
   }
 }
 
